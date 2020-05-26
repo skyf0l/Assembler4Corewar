@@ -1,0 +1,18 @@
+# compil
+include/lib/*/*.h
+*.o
+*.a
+
+# tests
+*.gcda
+*.gcno
+*.log
+unit_tests
+*.cor
+!/tests/champions/valids/expected/*
+
+# debug
+/vgcore.*
+
+# champions
+!/champions/*
